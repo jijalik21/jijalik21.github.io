@@ -1,0 +1,105 @@
+<!--Подключение шаблона head.html(папка "template")-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Мой сайт</title>
+
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="../style/style_list.css">
+    <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
+    <!--fonts -->
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <!--Font Awesome Icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <!--Owl-Carousel(slider)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.theme.default.min.css" />
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/server.js"></script>
+</head>
+
+<!--Наш код к главной странице-->
+<body>
+<!--Подключение шаблона header.html(папка "template")-->
+<header>
+    <div class="container">
+        <ul class="nav-menu">
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="../inner_pages/theory.html">Теорія</a></li>
+            <li><a href="../inner_pages/practice.html">Практика</a></li>
+            <li><a href="../inner_pages/marks.html">Оцінки</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="main">
+
+   <section id="marks">
+       <div class="container">
+           <div class="marks-wrapper">
+               <h2>Пройдено тем</h2>
+               <p class="num-mark">4</p>
+               <!--Разделитель, пуст в html, но оформлен в css-->
+               <div class="devider"></div>
+               <div class="studies-mark-wrapper">
+                   <div class="studies">
+                       <!--Список с левой колонкой предметом-->
+                       <ul>
+                           <li>Транскодування</li>
+                           <li>Вилучення слова</li>
+                           <li>Додавання слова</li>
+                           <li>Генералізація </li>
+                       </ul>
+                   </div>
+                   <div class="marks">
+                       <!--Список с правой колонкой оценками-->
+                       <ul>
+                           <li>5 балів</li>
+                           <li>4 бали</li>
+                           <li>3 бали</li>
+                           <li>4 бали</li>
+                       </ul>
+                   </div>
+               </div>
+               <!--Разделитель, пуст в html, но оформлен в css-->
+               <div class="devider"></div>
+               <!--НОВЫЙ список с фтнальными оценками-->
+               <ul class="studies-mark-final">
+                   <li class="final-study">Загальна оцінка</li>
+                   <li class="final-mark">4 бали</li>
+               </ul>
+           </div>
+       </div>
+   </section>
+
+</main>
+<!--Подключение шаблона header.html(папка "template")-->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div class="links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <div class="copyright">
+                <p>© 2018 ХАІ</p>
+                <p>Всі права захищені.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>

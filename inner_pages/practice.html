@@ -1,0 +1,732 @@
+<!--Подключение шаблона head.html(папка "template")-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Мой сайт</title>
+
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="../style/style_list.css">
+    <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
+    <!--fonts -->
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <!--Font Awesome Icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <!--Owl-Carousel(slider)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.theme.default.min.css" />
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/server.js"></script>
+</head>
+
+<!--Наш код к главной странице-->
+<body>
+<!--Подключение шаблона header.html(папка "template")-->
+<header>
+    <div class="container">
+        <ul class="nav-menu">
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="../inner_pages/theory.html">Теорія</a></li>
+            <li><a href="../inner_pages/practice.html">Практика</a></li>
+            <li><a href="../inner_pages/marks.html">Оцінки</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="main">
+
+    <section id="practice">
+        <div class="container">
+            <div class="practice-wrapper">
+                <div class="test-wrap">
+
+                    <form name="test" action="../php/server.php" method="post">
+                        <h1>Напишiть транслітерацію</h1>
+                        <div class="test-item">
+
+                            <div class="transcode-item">
+                                <label for="ahmad">ahmad  </label>
+                                <input id="ahmad" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="altimeter">altimeter  </label>
+                                <input id="altimeter" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="aviator">aviator  </label>
+                                <input id="aviator" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="google">google  </label>
+                                <input id="google" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="hobby">hobby  </label>
+                                <input id="hobby" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="husky">husky  </label>
+                                <input id="husky" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="Internet">Internet  </label>
+                                <input id="Internet" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="management">management </label>
+                                <input id="management" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="manipulation">manipulation  </label>
+                                <input id="manipulation" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="media_player">media player  </label>
+                                <input id="media_player" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="moskovskyy">moskovskyy  </label>
+                                <input id="moskovskyy" type="text">
+                            </div>
+                            <div class="transcode-item">
+                                <label for="ort">ort  </label>
+                                <input id="ort" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="perforator">perforator  </label>
+                                <input id="perforator" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="platform">platform  </label>
+                                <input id="platform" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="resource">resource </label>
+                                <input id="resource" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="Special_Systems_Industry">special systems industry  </label>
+                                <input id="Special_Systems_Industry" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="tag">tag  </label>
+                                <input id="tag" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="turbogenerator">turbogenerator  </label>
+                                <input id="turbogenerator" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="video">video  </label>
+                                <input id="video" type="text">
+                            </div>
+
+                            <div class="transcode-item">
+                                <label for="zara">zara  </label>
+                                <input id="zara" type="text">
+                            </div>
+                        </div>
+                        <h1>Тести (може бути декiлька правильних вiдповiдей)</h1>
+                        <div class="test-item">
+                            <p>Тема: Калькування</p>
+                            <div class="question-wrap">
+                                <div class="question">1. accomplice of attempt </div>
+                                <input type="checkbox" name="random" value="true"> співучасник у замаху<br>
+                                <input type="checkbox" name="random" value="false"> соучасник злочину<br>
+                                <input type="checkbox" name="random" value="false"> співучасник злочину<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">    2. according to law  </div>
+                                <input type="checkbox" name="random" value="true"> у відповідності до закону<br>
+                                <input type="checkbox" name="random" value="false"> відповідно правилам<br>
+                                <input type="checkbox" name="random" value="false"> у відповідності до законів<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">    3. air hostess   </div>
+                                <input type="checkbox" name="random" value="false"> стюард   <br>
+                                <input type="checkbox" name="random" value="true"> бортопровідниця<br>
+                                <input type="checkbox" name="random" value="false"> стюардеса<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">        4. arctic fox     </div>
+                                <input type="checkbox" name="random" value="false"> арктична лисиця   <br>
+                                <input type="checkbox" name="random" value="false"> арктичний песець   <br>
+                                <input type="checkbox" name="random" value="true"> песець<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question"> 5. blowing snow   </div>
+                                <input type="checkbox" name="random" value="true"> подув снігу   <br>
+                                <input type="checkbox" name="random" value="false"> снігова буря   <br>
+                                <input type="checkbox" name="random" value="false"> завірюха<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">      6. builder     </div>
+                                <input type="checkbox" name="random" value="true"> компонент   <br>
+                                <input type="checkbox" name="random" value="false"> будівництво   <br>
+                                <input type="checkbox" name="random" value="true"> будівельник<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">      7. сhief receptionist       </div>
+                                <input type="checkbox" name="random" value="true"> головний адміністратор   <br>
+                                <input type="checkbox" name="random" value="false"> керівник   <br>
+                                <input type="checkbox" name="random" value="false"> головний портьє<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">      8. environmentalist     </div>
+                                <input type="checkbox" name="random" value="true"> еколог    <br>
+                                <input type="checkbox" name="random" value="false"> енвайронменталізм     <br>
+                                <input type="checkbox" name="random" value="false"> інвайроменталіст<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">     9. immoral      </div>
+                                <input type="checkbox" name="random" value="true"> аморальний    <br>
+                                <input type="checkbox" name="random" value="false"> амморальний        <br>
+                                <input type="checkbox" name="random" value="false"> аморально <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">        10. jumper </div>
+                                <input type="checkbox" name="random" value="false"> джемпер   <br>
+                                <input type="checkbox" name="random" value="false"> стрибунець      <br>
+                                <input type="checkbox" name="random" value="true"> стрибун<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">   11. keyboard      </div>
+                                <input type="checkbox" name="random" value="false"> клавішна панель    <br>
+                                <input type="checkbox" name="random" value="true"> клавіатура      <br>
+                                <input type="checkbox" name="random" value="false"> клавіатурний<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">   12. multiple accredit      </div>
+                                <input type="checkbox" name="random" value="false"> множине акредитування	    <br>
+                                <input type="checkbox" name="random" value="false"> множинне аккредитування        <br>
+                                <input type="checkbox" name="random" value="true"> множинне акредитування <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">      13. non-stop  </div>
+                                <input type="checkbox" name="random" value="true"> без зупинки   <br>
+                                <input type="checkbox" name="random" value="false"> без гальмування       <br>
+                                <input type="checkbox" name="random" value="false"> нескінченно<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">      14. polar bear        </div>
+                                <input type="checkbox" name="random" value="true"> білий ведмідь    <br>
+                                <input type="checkbox" name="random" value="false"> полярний медвідь	      <br>
+                                <input type="checkbox" name="random" value="true"> полярний ведмідь<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">     15. semiconductor       </div>
+                                <input type="checkbox" name="random" value="true"> напівпровідник	    <br>
+                                <input type="checkbox" name="random" value="false"> півпровідник		       <br>
+                                <input type="checkbox" name="random" value="true"> напівпровідниковий матеріал <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">      16. skyscraper   </div>
+                                <input type="checkbox" name="random" value="true"> хмарочос   <br>
+                                <input type="checkbox" name="random" value="true"> небодряп       <br>
+                                <input type="checkbox" name="random" value="true"> трюмсель<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">          17. supernatural          </div>
+                                <input type="checkbox" name="random" value="true"> надприродний    <br>
+                                <input type="checkbox" name="random" value="true"> незвичайний      <br>
+                                <input type="checkbox" name="random" value="false"> неприродний<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        18. superpower         </div>
+                                <input type="checkbox" name="random" value="true"> супердержава	    <br>
+                                <input type="checkbox" name="random" value="true"> вища влада	       <br>
+                                <input type="checkbox" name="random" value="false"> супервлада <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">      19. tramlines           </div>
+                                <input type="checkbox" name="random" value="false"> трамваї		    <br>
+                                <input type="checkbox" name="random" value="true"> трамвайні лінії	       <br>
+                                <input type="checkbox" name="random" value="false"> колія <br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         20. workaholic           </div>
+                                <input type="checkbox" name="random" value="false"> работоголік	    <br>
+                                <input type="checkbox" name="random" value="true"> трудоголік	       <br>
+                                <input type="checkbox" name="random" value="true"> роботоголік <br>
+                            </div>
+                        </div>
+                        <div class="test-item">
+                            <p>Тема: Модуляція</p>
+                            <div class="question-wrap">
+                                <div class="question">    1. Additional evidence comes from comparative studies of living animals and plants. </div>
+                                <input type="checkbox" name="random" value="false"> Додаткові докази з’являються завдяки порівняльним дослідженням існуючих тварин та рослин.<br>
+                                <input type="checkbox" name="random" value="true"> Додаткові докази отримуються шляхом проведення порівняних досліджень існуючих тварин та рослин.<br>
+                                <input type="checkbox" name="random" value="true"> Додаткові докази можна отримати через порівняльні дослідження існуючих тварин та рослин.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">     2. A lot of schools were home for vacation already.  </div>
+                                <input type="checkbox" name="random" value="true"> У багатьох школах вже почалися канікули.<br>
+                                <input type="checkbox" name="random" value="true"> У багатьох пансіонах та коледжах вже почалися канікули.<br>
+                                <input type="checkbox" name="random" value="false"> Багато шкіл все закрилися на час канікул.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">     3. And he noticed with sour disfavour that June had left her wine-glass full of wine.    </div>
+                                <input type="checkbox" name="random" value="true"> І він роздратовано зауважив, що Джун не доторкнулася до вина.  <br>
+                                <input type="checkbox" name="random" value="true"> І він роздратовано зауважив, що Джун не випила ні краплі вина.<br>
+                                <input type="checkbox" name="random" value="false"> І він роздратовано зауважив, що Джун залишила келих вина повним.<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">       4. At least four shots were fired, but the deliveryman wasn’t hurt.    </div>
+                                <input type="checkbox" name="random" value="true"> Принаймні було випущено чотири кулі, але жодна не зачепила рознощика.  <br>
+                                <input type="checkbox" name="random" value="true"> Було випущено як мінімум чотири кулі, але всі вони пройшли повз.   <br>
+                                <input type="checkbox" name="random" value="false"> Пролунало як мінімум чотири постріли, але всі вони пройшли повз.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">     5. At least he found his voice.   </div>
+                                <input type="checkbox" name="random" value="true"> Він нарешті знайшов дар мови.   <br>
+                                <input type="checkbox" name="random" value="false"> Принаймні він знайшов свій голос  <br>
+                                <input type="checkbox" name="random" value="false"> Він нарешті зміг розмовляти.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       6. Can the Leopard Change His Spots?     </div>
+                                <input type="checkbox" name="random" value="true"> Природу не виправити.   <br>
+                                <input type="checkbox" name="random" value="true"> Чи може барс змінити плями свої?   <br>
+                                <input type="checkbox" name="random" value="true"> З чорного кота білого не зробиш.<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">       7. “Have a seat there, boy”, old Spencer said. He meant the bed.       </div>
+                                <input type="checkbox" name="random" value="false"> «Сідай он туди, хлопчик.», – сказав старий Спенсер, маючи на увазі ліжко.   <br>
+                                <input type="checkbox" name="random" value="true"> «Сідай он туди, хлопчик.», – сказав старий Спенсер. Він показав на ліжко.   <br>
+                                <input type="checkbox" name="random" value="false"> «Сідай он туди, хлопчик.», – сказав старий Спенсер, пропонуючи сісти на ліжко.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       8. He always made ​​you say everything twice.    </div>
+                                <input type="checkbox" name="random" value="false"> Він завжди змушував повторювати двічі.   <br>
+                                <input type="checkbox" name="random" value="true"> Він завжди перепитував.      <br>
+                                <input type="checkbox" name="random" value="false"> Йому завжди треба було перепитати.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        9. He is dead now.      </div>
+                                <input type="checkbox" name="random" value="true"> Він помер.    <br>
+                                <input type="checkbox" name="random" value="false"> Він зараз мертвий.       <br>
+                                <input type="checkbox" name="random" value="false"> Він зараз помер. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">        10. Не would cheer up somehow, begin to laugh again
+                                    and draw skeletons all over his slate, before his eyes were dry. </div>
+                                <input type="checkbox" name="random" value="true"> Він знов підбадьорився, почав сміятися і малював на своїй грифельній
+                                дошці різні фігурки, хоча очі його були повні сліз.   <br>
+                                <input type="checkbox" name="random" value="true"> Він якось підбадьорився, почав сміятися і малювати
+                                на своїй грифельній дошці різні фігурки, хоча очі його були повні сліз.      <br>
+                                <input type="checkbox" name="random" value="false"> Він би підбадьорився, почав сміятися і малювати на планшеті скелети, хоча очі його були повні сліз.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       11. I don't blame them.     </div>
+                                <input type="checkbox" name="random" value="false"> Я не звинувачую їх.    <br>
+                                <input type="checkbox" name="random" value="true"> Я їх розумію.     <br>
+                                <input type="checkbox" name="random" value="false"> Я їх не розумію.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       12. I don’t think she’s living here at the moment. Her bed wasn’t slept in.     </div>
+                                <input type="checkbox" name="random" value="true"> Я думаю, вона не живе тут в даний час. Її ліжко не зім'яте.	    <br>
+                                <input type="checkbox" name="random" value="false"> Я думаю, вона не живе тут в даний час. Її ліжко застелене.      <br>
+                                <input type="checkbox" name="random" value="true">Я не думаю, що вона живе тут в даний час. Її ліжко не зім'яте. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">        13. Japan and major European countries have joined the United States in falling into recession.  </div>
+                                <input type="checkbox" name="random" value="false"> Японія і провідні країни Європи тепер також попали в рецесію.   <br>
+                                <input type="checkbox" name="random" value="false"> Японія і основні країни Європи тепер також переживають рецесію.      <br>
+                                <input type="checkbox" name="random" value="true"> Японія і провідні країни Європи тепер також переживають рецесію.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">          14. Manson slung his bag up and climbed into the battered gig behind a tall, angular black horse.        </div>
+                                <input type="checkbox" name="random" value="true"> Менсон поставив свою валізу і вліз в розхлябану двоколку, запряжену великим кістлявим чорним конем.    <br>
+                                <input type="checkbox" name="random" value="false"> Менсон скинув свій мішок і піднявся на розхлябану двоколку, запряжену великим кістлявим чорним конем. 	      <br>
+                                <input type="checkbox" name="random" value="false"> Менсон поставив свою валізу і заліз в розхлябану двоколку за великим кістлявим чорним конем.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         15. Many South African sanctuaries are readily reached from Johannesburg.       </div>
+                                <input type="checkbox" name="random" value="true"> До багатьох південноафриканських заповідників рукою подати від Іоганненсбурга.	    <br>
+                                <input type="checkbox" name="random" value="true"> Багато південноафриканських заповідників знаходиться недалеко від Іоганнесбурга.	       <br>
+                                <input type="checkbox" name="random" value="false"> До багатьох південноафриканських заповідників йти недалеко від Іоганненсбурга. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">          16. “...oh, miss, something must have happened – there's nobody in Miss Sharp’s room; the bed ain’t been slept in...”   </div>
+                                <input type="checkbox" name="random" value="true"> «…О, міс! Напевно, щось трапилось: у кімнаті міс Шарп нікого немає, і її постіль не пом’ята…».  <br>
+                                <input type="checkbox" name="random" value="false"> «…О, міс! Обов’язково щось трапилось: у кімнаті міс Шарп нікого немає, і її постіль не пом’ята…».      <br>
+                                <input type="checkbox" name="random" value="false"> …О, міс! Напевно, щось трапилось: у кімнаті місіс Шарп нікого немає, і її постіль не пом’ята…».<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       17. Only when quantum theory became available in the 1920s was it possible to understand more complicated problems.          </div>
+                                <input type="checkbox" name="random" value="true"> Лише коли в 1920-х роках було опрацьовано квантову теорію, стало можливим розуміння складніших проблем.    <br>
+                                <input type="checkbox" name="random" value="true"> Лише коли в 1920-х роках було запропоновано квантову теорію, стало можливим розуміння складніших проблем.      <br>
+                                <input type="checkbox" name="random" value="false"> ише у 1920-х роках було опрацьовано квантову теорію, і тоді стало можливим розуміння складніших проблем.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">           18. The cafes became overcrowded, so we have gone home.         </div>
+                                <input type="checkbox" name="random" value="true"> У кафе не було вільного місця, тому ми попрямували додому.     <br>
+                                <input type="checkbox" name="random" value="true"> У кафе не було вільного місця, тому ми пішли додому.	       <br>
+                                <input type="checkbox" name="random" value="false"> Кафе було переповнене, тому ми пошкандибали додому. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">         19. The other class, who might be called the exploiters,
+                                    was formed by the sponges, who were sober, serious people by comparison, with a purpose
+                                    in life and no time for fooling.        </div>
+                                <input type="checkbox" name="random" value="false"> Інший клас, який можна назвати експлуататорським, утворили ділки,
+                                тверезі і серйозні, які мають мету у житті і не мають часу на дурниці.	    <br>
+                                <input type="checkbox" name="random" value="true"> Другу групу — назвемо її експлуататорською – складали бувалі ділки,
+                                люди тверезі і поважні, які знають, що їм потрібно, і не марнують час на дурниці.	       <br>
+                                <input type="checkbox" name="random" value="false"> Другу групу, експлуататорську, складали бувалі ділки,
+                                люди тверезі і поважні, які знають, що їм потрібно, і не марнують час на дурниці. <br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">      20. This is an unusual party for me.           </div>
+                                <input type="checkbox" name="random" value="true"> Це незвична для мене ситуація.	    <br>
+                                <input type="checkbox" name="random" value="false"> Це невластиве мені становище.	       <br>
+                                <input type="checkbox" name="random" value="true"> Я опинився в незручному становищі. <br>
+                            </div>
+                        </div>
+                        <div class="test-item">
+                            <p>Тема: Експлікація</p>
+                            <div class="question-wrap">
+                                <div class="question">    1. affidavit </div>
+                                <input type="checkbox" name="random" value="true"> письмове свідчення під присягою<br>
+                                <input type="checkbox" name="random" value="false"> свідчення сусідів<br>
+                                <input type="checkbox" name="random" value="false"> відчення про пекло<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">    2. antedate  </div>
+                                <input type="checkbox" name="random" value="false"> теперішня дата<br>
+                                <input type="checkbox" name="random" value="true"> дата, поставлена майбутнім числом<br>
+                                <input type="checkbox" name="random" value="true"> дата, поставлена заднім числом<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">      3. bull   </div>
+                                <input type="checkbox" name="random" value="false"> бик  <br>
+                                <input type="checkbox" name="random" value="true"> загальне передчуття на ринку, що ціни будуть рости<br>
+                                <input type="checkbox" name="random" value="true"> спекулянт, який грає на підвищення біржових цінностей<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">           4. Car owners from the midway towns ran a shuttle
+                                    service for parents visiting the children injured in the accident.     </div>
+                                <input type="checkbox" name="random" value="true"> Власники автомашин з міст, що лежать між цими двома пунктами, безперервно привозили
+                                і відвозили батьків, які відвідували своїх дітей, які постраждали під час аварії.   <br>
+                                <input type="checkbox" name="random" value="false"> Власники автомобілів з сусідніх міст безперервно проводили
+                                трансфер для батьків, які відвідували дітей, постраждалих під час аварії.   <br>
+                                <input type="checkbox" name="random" value="false"> Власники автомашин з міст, що лежать між цими двома пунктами, проводили багаторазові
+                                перевезення батьків, які відвідували своїх дітей, що постраждали під час аварії.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">    5. closed shops / open shops   </div>
+                                <input type="checkbox" name="random" value="false"> закриті магазини / відкриті магазини  <br>
+                                <input type="checkbox" name="random" value="true"> закрите підприємство / відкрите підприємство   <br>
+                                <input type="checkbox" name="random" value="true"> підприємство, де працюють тільки члени профспілки
+                                та підприємство, що приймає на роботу не членів профспілки наряду з членами<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       6. eye-opener     </div>
+                                <input type="checkbox" name="random" value="true"> що-небудь, що відкриває людині очі на дійсний стан речей   <br>
+                                <input type="checkbox" name="random" value="true"> викриття   <br>
+                                <input type="checkbox" name="random" value="true"> ковток спиртного<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">       7. Hey, why are you grinning like a Cheshire cat?       </div>
+                                <input type="checkbox" name="random" value="true"> Гей, чому ти усміхаєшся на всі зуби?   <br>
+                                <input type="checkbox" name="random" value="false"> Гей, чого ти регочеш?  <br>
+                                <input type="checkbox" name="random" value="false"> Гей, чому ти посміхаєшся?<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        8. In New-York, boy, money really talks.     </div>
+                                <input type="checkbox" name="random" value="false"> У Нью-Йорку гроші дійсно розмовляють.    <br>
+                                <input type="checkbox" name="random" value="true"> У Нью-Йорку за гроші можливо все.    <br>
+                                <input type="checkbox" name="random" value="true"> У Нью-Йорку, хлопче, гроші вирішують все.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        9. journeyman      </div>
+                                <input type="checkbox" name="random" value="false"> джорнімен    <br>
+                                <input type="checkbox" name="random" value="false"> кваліфікований робітник         <br>
+                                <input type="checkbox" name="random" value="true"> кваліфікований робітник або ремісник, який працює за наймом  <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">       10. "MISS JEMIMA!", exclaimed Miss Pinkerton in the largest capitals. </div>
+                                <input type="checkbox" name="random" value="true"> «МІС Джемайма!» - вигукнула міс Пінкертон.    <br>
+                                <input type="checkbox" name="random" value="false"> «МІС Джемайма!» - закричала міс Пінкертон з усієї сили.      <br>
+                                <input type="checkbox" name="random" value="false"> «МІС Джемайма!» - пискнула міс Пінкертон.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       11. Mrs. Mаson screаmed like а bаnshee…      </div>
+                                <input type="checkbox" name="random" value="false"> Місіс Мейсон закричала, як банші.    <br>
+                                <input type="checkbox" name="random" value="true"> Місіс Мейсон закричала не своїм голосом, не гірше ірландського привиду, що приносить звістку про близьку смерть.      <br>
+                                <input type="checkbox" name="random" value="true"> Місіс Мейсон закричала, як ірландський привид, що приносить звістку про близьку смерть. <br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       12. My antennae perked up as I tried to force her to make eye contact with me.      </div>
+                                <input type="checkbox" name="random" value="true"> Вся моя увага зосередилася на ній, і я спробувала зловити її погляд.	    <br>
+                                <input type="checkbox" name="random" value="false"> Побачивши її, я оживилася і спробувала зловити її погляд.       <br>
+                                <input type="checkbox" name="random" value="false"> Моє чуття зосередилася на ній, і я спробувала зловити її погляд. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">       13. No wonder she is ill. She has been burning the candle at both ends for a long time.  </div>
+                                <input type="checkbox" name="random" value="true"> Недивно, що у неї проблеми зі здоров’ям. Вона звикла працювати з раннього ранку до пізнього вечора.    <br>
+                                <input type="checkbox" name="random" value="false"> Дивно, що у неї проблеми зі здоров’ям. Вона звикла працювати з раннього ранку до пізнього вечора.      <br>
+                                <input type="checkbox" name="random" value="true"> Недивно, що у неї проблеми зі здоров’ям. Вона звикла працювати як папа Карло.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        14. Parole        </div>
+                                <input type="checkbox" name="random" value="false"> обіцянка    <br>
+                                <input type="checkbox" name="random" value="true"> зобов'язання полонених не брати участь у військових діях.	      <br>
+                                <input type="checkbox" name="random" value="false"> порука<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         15. Parole system       </div>
+                                <input type="checkbox" name="random" value="true"> система, по якій укладені звільняються на відомих умовах достроково.	    <br>
+                                <input type="checkbox" name="random" value="true"> політика підтасування виборів, тиску на виборців.	       <br>
+                                <input type="checkbox" name="random" value="false"> Система паролів. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">        16. The lake has a 550-mile shoreline that offers just about everything the outdoorsman might want.   </div>
+                                <input type="checkbox" name="random" value="true"> Довжина берегової лінії озера 830 кілометрів.
+                                Любитель полювання і життя на лоні природи знайде тут все, що його душі завгодно.   <br>
+                                <input type="checkbox" name="random" value="false"> Довжина озера 830 кілометрів, тож мандрівник знайде тут все, що його душі завгодно.      <br>
+                                <input type="checkbox" name="random" value="false"> Довжина берегової лінії озера 830 метрів. Любитель полювання знайде тут все, що його душі завгодно.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">             17. Truly, friend Golg, I have half a mind to come down with you.          </div>
+                                <input type="checkbox" name="random" value="true"> Справді, добрий мій Голг, я не проти відправитися з тобою.     <br>
+                                <input type="checkbox" name="random" value="true"> Справді, добрий мій Голг, ще трохи і я майже готовий відправитися з тобою.      <br>
+                                <input type="checkbox" name="random" value="false"> Справді, добрий мій Голг, я не готовий відправитися з тобою.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">            18. tutor        </div>
+                                <input type="checkbox" name="random" value="false"> довідник    <br>
+                                <input type="checkbox" name="random" value="true"> керівник групи студентів в англійському університеті	       <br>
+                                <input type="checkbox" name="random" value="true"> молодший викладач вищого навчального закладу <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">          19. When she reached the house she gave another proof of her identity.           </div>
+                                <input type="checkbox" name="random" value="true"> Підійшовши до будинку, бабуся представила ще один доказ, що це була саме вона.		    <br>
+                                <input type="checkbox" name="random" value="false"> Підійшовши до будинку, він представив ще один доказ, що це був саме він.       <br>
+                                <input type="checkbox" name="random" value="false"> Підійшовши до будинку, вона індетифікувала себе ще раз . <br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">           20. Whip          </div>
+                                <input type="checkbox" name="random" value="false"> примха   <br>
+                                <input type="checkbox" name="random" value="true"> парламентський організатор партії 	       <br>
+                                <input type="checkbox" name="random" value="true"> рповістка партійного організатора про необхідність бути присутнім на засіданні парламенту <br>
+                            </div>
+                        </div>
+                        <div class="test-item">
+                            <p>Тема: Антонімічний переклад</p>
+                            <div class="question-wrap">
+                                <div class="question">    1. Could you do me a favour, please? </div>
+                                <input type="checkbox" name="random" value="false"> Могли б ви зробити мені послугу?<br>
+                                <input type="checkbox" name="random" value="true"> Чи не зробили б ви мені послугу?<br>
+                                <input type="checkbox" name="random" value="false"> Зробіть мені послугу.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        2. Debtors might be put to death if their failure to pay their creditors was due to fraudulent practices. </div>
+                                <input type="checkbox" name="random" value="true"> Боржників могли стратити, якщо вони були нездатні сплатити борги через свої махінації.<br>
+                                <input type="checkbox" name="random" value="false"> Боржників могли стратити, якби вони не сплатити борги.<br>
+                                <input type="checkbox" name="random" value="false"> Боржників могли повісити, якщо вони були нездатні сплатити борги через свої махінації.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">        3. Don't sit up, I'll be late.   </div>
+                                <input type="checkbox" name="random" value="false"> Не засиджуйтеся, я буду пізно.  <br>
+                                <input type="checkbox" name="random" value="true"> Не чекайте на мене, лягайте спати.<br>
+                                <input type="checkbox" name="random" value="false"> Я буду пізно, не лягайте без мене.<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">           4. He didn’t talk much.     </div>
+                                <input type="checkbox" name="random" value="false"> Здебільшого він розмовляв.  <br>
+                                <input type="checkbox" name="random" value="false"> Він увесь час просидів мовчки.   <br>
+                                <input type="checkbox" name="random" value="true"> Здебільшого він відмовчувався.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">             5. He has a ready tongue.    </div>
+                                <input type="checkbox" name="random" value="true"> Він за словом у кишеню не лізе.   <br>
+                                <input type="checkbox" name="random" value="false"> Він що гадає, те й вимовляє.   <br>
+                                <input type="checkbox" name="random" value="false"> У нього язик підвішений.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         6. He has clean hands in this matter.    </div>
+                                <input type="checkbox" name="random" value="false"> Він не має ніякого інтересу до цієї справі.   <br>
+                                <input type="checkbox" name="random" value="true"> Він не має ніякого відношення до цієї справи.   <br>
+                                <input type="checkbox" name="random" value="false"> Він має пряме відношення до цієї справи.<br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">          7. I am not kidding.      </div>
+                                <input type="checkbox" name="random" value="true"> Я серйозно.   <br>
+                                <input type="checkbox" name="random" value="true"> Я вам серйозно кажу.    <br>
+                                <input type="checkbox" name="random" value="false"> Я не жартую.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         8. I have the honour and happiness of presenting Miss
+                                    Emelia Sedley to her parents, as a young lady not unworthy to occupy a fitting
+                                    position in their polished and refined circle.     </div>
+                                <input type="checkbox" name="random" value="false"> Я маю честь представити міс Емілію Седлі її батькам як молоду особу,
+                                яка не негідна зайняти відповідне становище у вищому колі.    <br>
+                                <input type="checkbox" name="random" value="true"> Я маю честь представити міс Емілію Седлі її батькам як
+                                молоду особу, яка гідна зайняти відповідне становище у вищому колі.     <br>
+                                <input type="checkbox" name="random" value="false"> Я дуже щасливий представити місіс
+                                Емілію Седлі її батькам як молоду особу, яка гідна зайняти відповідне становище у вищому колі.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       9. Keep your head.     </div>
+                                <input type="checkbox" name="random" value="true"> Не розгубися.    <br>
+                                <input type="checkbox" name="random" value="false"> Не соромся.      <br>
+                                <input type="checkbox" name="random" value="false"> Зберігай спокій. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">       10. Large-scale structures of the universe
+                                    did not become a preoccupation of cosmology until the mid-1980s. </div>
+                                <input type="checkbox" name="random" value="false"> До середини 1980-х років великомасштабні структури
+                                всесвіту були об’єктом докладного дослідження.   <br>
+                                <input type="checkbox" name="random" value="false"> Великі структури всесвіту не були об'єктом докладного дослідження аж до 1980-х років.     <br>
+                                <input type="checkbox" name="random" value="true"> Великі структури всесвіту стали об'єктом докладного дослідження лише в 1980-і роки.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       11. Mind your own business.      </div>
+                                <input type="checkbox" name="random" value="false"> Відчепися.    <br>
+                                <input type="checkbox" name="random" value="true"> Не твоє діло.      <br>
+                                <input type="checkbox" name="random" value="true"> Не втручайся в чужі справи.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">       12. No time like the present.      </div>
+                                <input type="checkbox" name="random" value="false"> Немає часу, як справжнє.	    <br>
+                                <input type="checkbox" name="random" value="false"> Лови момент.        <br>
+                                <input type="checkbox" name="random" value="true"> Лови хвилю. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">         13. Take it easy.  </div>
+                                <input type="checkbox" name="random" value="true"> Не беріть до серця.   <br>
+                                <input type="checkbox" name="random" value="true"> Не утруднюйте себе.       <br>
+                                <input type="checkbox" name="random" value="false"> Будь простішим.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         14. Take your time.       </div>
+                                <input type="checkbox" name="random" value="true"> Не поспішай.     <br>
+                                <input type="checkbox" name="random" value="false"> Поспішай.	      <br>
+                                <input type="checkbox" name="random" value="false"> Не гальмуй.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">         15. The adoption of the defensive does not necessarily imply weakness or inferiority.      </div>
+                                <input type="checkbox" name="random" value="true"> Перехід до оборони не обов'язково означає слабкість тих,
+                                хто обороняється, чи перевагу сил противника. 	    <br>
+                                <input type="checkbox" name="random" value="false"> Перехід до оборони не обов'язково означає слабкість чи неповноцінність.		       <br>
+                                <input type="checkbox" name="random" value="true"> Перехід до оборони обов'язково означає слабкість тих, хто обороняється та перевагу сил противника. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">         16. The dog nearly knocked him over.   </div>
+                                <input type="checkbox" name="random" value="false"> Собака майже збив його з ніг.   <br>
+                                <input type="checkbox" name="random" value="false"> Собака ледь не перечепився через нього.       <br>
+                                <input type="checkbox" name="random" value="false"> Собака ледь не збив його з ніг.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">             17. They failed to explain it.       </div>
+                                <input type="checkbox" name="random" value="false"> Вони не додумалися пояснити це.    <br>
+                                <input type="checkbox" name="random" value="true"> Вони не змогли пояснити це.      <br>
+                                <input type="checkbox" name="random" value="false"> Вони не хотіли пояснити це.<br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">           18. They nodded to each other by way of breaking the ice of unacquaintance.         </div>
+                                <input type="checkbox" name="random" value="false"> Вони поклонилися один одному щоб розбити льод незнайомства.    <br>
+                                <input type="checkbox" name="random" value="false"> Вони поклонилися один одному щоб завести знайомство.       <br>
+                                <input type="checkbox" name="random" value="true"> Вони поклонилися один одному щоб зав'язати знайомство. <br>
+                            </div>
+
+                            <div class="question-wrap">
+                                <div class="question">          19. To be weighed and found wanting.           </div>
+                                <input type="checkbox" name="random" value="false"> Не здати екзамен.	    <br>
+                                <input type="checkbox" name="random" value="true"> Не витримати випробування.	       <br>
+                                <input type="checkbox" name="random" value="true"> Не виправдати надій. <br>
+                            </div>
+                            <div class="question-wrap">
+                                <div class="question">            20. Whitney, however, failed to profit from his invention.          </div>
+                                <input type="checkbox" name="random" value="true"> Однак Вітні нічого не заробив на своєму винаході.    <br>
+                                <input type="checkbox" name="random" value="false"> Однак Вітні примудрився нічого не заробити на своєму винаході.	       <br>
+                                <input type="checkbox" name="random" value="false"> Однак Вітні дуже мало заробив на своєму винаході. <br>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+                <!--<h1>Завдання за темою «Транскодуваня»</h1>-->
+                <!--<p>Застосовуючи метод транслітерації і транскрибування,-->
+                    <!--перекладіть наступні слова <br>-->
+                    <!--Звіртеся із правильним варіантом.-->
+                <!--</p>-->
+                <!--&lt;!&ndash;Список&ndash;&gt;-->
+                <!--<ul>-->
+                    <!--<li class="practice-list-item practice-bold">Special Systems Industry</li>-->
+                    <!--<li class="practice-list-item practice-lined" >Special Systems Industry</li>-->
+                    <!--<li class="practice-list-item">Special Systems Industry</li>-->
+                <!--</ul>-->
+            </div>
+        </div>
+    </section>
+
+</main>
+<!--Подключение шаблона header.html(папка "template")-->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div class="links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <div class="copyright">
+                <p>© 2018 ХАІ</p>
+                <p>Всі права захищені.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>

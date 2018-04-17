@@ -1,0 +1,337 @@
+<!--Подключение шаблона head.html(папка "template")-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Мой сайт</title>
+
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="../style/style_list.css">
+    <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
+    <!--fonts -->
+    <link rel="stylesheet" href="../fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <!--Font Awesome Icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <!--Owl-Carousel(slider)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.theme.default.min.css" />
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/server.js"></script>
+</head>
+
+<!--Наш код к главной странице-->
+<body>
+<!--Подключение шаблона header.html(папка "template")-->
+<header>
+    <div class="container">
+        <ul class="nav-menu">
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="../inner_pages/theory.html">Теорія</a></li>
+            <li><a href="../inner_pages/practice.html">Практика</a></li>
+            <li><a href="../inner_pages/marks.html">Оцінки</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="main">
+
+    <section id="theme-list">
+        <div class="container">
+
+            <div class="theory-theme">
+
+                <a name="theme-1" style="display:block;"></a>  <!--Якорь на первую тему-->
+                <h1 class="theory-theme-title-1">ТЕМА 1. Перекладацькі трансформації</h1>
+                <div class="theory-theme-gridbox">
+                        <!--Ячейки грид-секции-->
+                        <a href="#transcoding" class="grid-cell" id="theme1-box1">Транскодування</a>
+                        <a href="#calculating" class="grid-cell" id="theme1-box2">Калькування</a>
+                        <a href="#modulation" class="grid-cell" id="theme1-box3">Модуляція</a>
+                        <a href="#explication" class="grid-cell" id="theme1-box4">Експлікація</a>
+                        <a href="#anatomic-translate" class="grid-cell" id="theme1-box5">Антонімічний переклад</a>
+
+                        <a href="#generalisation" class="grid-cell" id="theme1-box6">Генералізація</a>
+                        <a href="#specification" class="grid-cell" id="theme1-box7">Конкретизація</a>
+                        <a href="#addition" class="grid-cell" id="theme1-box8">Додавання</a>
+                        <a href="#deleted" class="grid-cell" id="theme1-box9">Вилученя</a>
+                        <a href="#permutation" class="grid-cell" id="theme1-box10">Перестановка</a>
+                </div>
+                        <!--Ячейка грид-секции нижняя,
+                         вынесена за главный блок гридов
+                         (по сути - отдельный грид бокс -->
+                        <a href="#replacements" class="grid-cell lowest-gridcell">
+                            <div  id="theme1-box11">Заміни</div>
+                        </a>
+                <div class="carousel-wrap">
+                    <div class="owl-carousel owl-theme">
+                        <article class="read_more more" data-hash="transcoding"> <b>Транскодування</b> – це такий спосіб перекладу,
+                            коли звукова та/або графічна форма слова вихідної мови передається засобами
+                            абетки мови перекладу, наприклад, management – менеджмент, emitter – емітер,
+                            perisco­pe – перископ, perforator – перфоратор, piperitone – піперитон.
+                            <br><br>
+                            Розрізняють чотири види транскодування:
+                            <br> 1) транскрибування (коли літерами мови перекладу передається звукова форма слова вихідної мови: peak – пік, resistor – резистор)
+                            <br> 2) транслітерування (слово вихідної мови передається по літерах: marketing – маркетинг, ping-pong – пінг-понг, ort –орт)
+                            <br> 3) змішане транскодування (переважне застосу­вання транскрибування із елементами транслітерування: over-lock – оверлок, altimeter – альтиметр)
+                            <br> 4) адаптивне транскодування (коли форма слова в вихідній мові дещо адаптується до фонетичної та/або грама­тичної структури мови перекладу: middle – мідель, nipple – ні­пель, occlusion – оклюзія, platform – платформа, pallet – палета).
+                            <br><br>
+                            При транскодуванні літерами мови може передаватися вся форма або більша її частина. Іноді застосовується змішане транскодування, коли більша частина транскодованого слова відбиває його звучання в вихідній мові, але разом з тим передаються й деякі елементи його графічної форми. Зокрема, це досить часто застосовується у випадку передачі власних імен: Mansell – Манселл (а не «Менселл», як вимовляється це власне ім'я англійською мовою).
+                            При перекладі неологізмів транскодування звичайно супроводжується описовим перекладом, що подається в дужках: maceral – мацерал (органічна складова вугілля), Ni-hard – нігард (білий чавун, легований хромом та нікелем), pace – пейс (позасистемна одиниця довжини). Саме так под­аються в перекладних словниках ті транскодовані терміни, що лише недав­но увійшли в мову перекладу: marker – маркер, pager – пейджер.
+                            <br><br>
+                            Для надання транскодованому терміну певної вмотивованості внутрішньої структури іноді додаються пояснювальні слова: nabla – набла-оператор, оператор Гамільтона; nerve – нерв (резинової суміші), nicol – призма Ніколя.
+                            <br><br>
+                            Транскодовані терміни, що вже міцно закріпилися в мові перекладу, в словниках можуть подаватися без додаткового описового перекладу: server –сервер, newton – ньютон, bulldozer – бульдозер.
+                            <br><br>
+                            Транскодування неологізмів відбувається при перекладі в тих випадках, коли в культурі і, зокрема, науці країни мови перекладу відсутнє від­повідне поняття і відповідний перекладний еквівалент, а перекладач не може підібрати слово або слова в мові перекладу, які б адекватно передавали зміст поняття і задовольняли вимогам до термінотворення. Оскільки при транскодуванні транскодоване слово має одне значення, то такий спосіб перекладу доцільно застосовувати в тих випадках, коли в мові перекладу необхідно створити чітко однозначний термін.
+                            <br><br>
+                            Особливо часто транскодування термінів відбувається в тих випадках, коли термін в мові перекладу складається з міжнародних терміноелементів латинського або давньогрецького проходження: percolator – перколатор, obturator – обтюратор, optron – оптрон, bigamy – бігамія, perlocution –перлокуція, macroassembler – макроасемблер.
+                            <br><br>
+                            Перш ніж застосовувати цей спосіб перекладу, перекладач повин­ний переконатися, що в мові перекладу відсутній перекладний відповідник слова, що перекладається, інакше через транскодування в мові перекладу можуть виникнути дублетні (синонімічні) терміни, а це порушує чіткість та стрункість певної терміносистеми: massicot – масікот, гльот, жовтий окис свинцю; pagination – пагінація, нумерація сторінок.
+                        </article>
+                        <article class="read_more more" data-hash="calculating"> <b>Калькування</b> (дослівний або буквальний переклад) – це прийом пе­рекладу нових слів (термінів), коли відповідником простого чи складного слова вихідної мови в цільовій мові вибирається, як правило, перший за порядком відповідник у словнику: ore yard – рудний двір, movable table – рухомій стіл, self-cooling – самоохолодження, line service – лінійна служба, toxic shock syndrome – токсичний шоковий синдром, Big Bang – Великий вибух, floating zero – плаваючий нуль.
+                            <br><br>
+                            В цих прикладах українські відповідники англійських термінів утворені шляхом вибору першого словникового відповідника кожного з компонентів.
+                            Калькування як прийом перекладу частіше застосовується при пере­кладі складних слів. Воно може застосовуватися також стосовно тільки одного з компонентів складного слова: charmed quark – зачарований кварк, slag yard – шлаковий двір. Досить часто калькування застосовується при перекладі до тих складних термінів, що утворені за до­помогою поширених загальнонародних слів: worm shaft – черв'ячний вал, target search – пошук цілі, drafting table – креслярський стіл, self-loading – самозавантаження.
+                            <br><br>
+                            Калькування можна застосовувати тільки тоді, коли утворений та­ким чином перекладний відповіднику не порушує
+                            норми вживання і спо­лучуваності слів в українській мові.
+
+                        </article>
+                        <article class="read_more more"data-hash="modulation"> Найтиповішим прикладом <b>модуляції</b> (смислового розвитку) є семантичне від­ношення наслідку, тобто причинно-наслідкове відношення: так, дієслова to drop «випустити (щось з рук)» to fall down «впасти (додолу)» пов'язані саме таким відношенням: He dropped his watch. – Він випустив годинника. His watch fell down. – Його годинник впав.
+                            <br><br>
+                            Смисловий розвиток є таким прийомом контекстуальної заміни, коли в перекладі використовується слово, значення якого є логічним розвитком значення слова, що перекладається. Іноді відхилення в перекладі від «бук­ви» оригіналу необхідно для досягнення адекватності перекладу, оскільки в мовах оригіналу та перекладу можуть діяти різні мовленнєві норми та існувати різні традиції мовлення:
+                            <br><br>
+                            Additional evidence comes from comparative studies of living animals and plants. Додаткові докази можна отримати через порівняльні дослід­ження існуючих тварин та рослин.
+                            <br><br>
+                            Only when quantum theory became available in the 1920s was it possible to understand more complicated problems. Лише коли в 1920-х роках було опрацьовано квантову теорію, стало можливим розуміння складніших проблем.
+                            <br><br>
+                            Зрозуміло, користуватися цим прийомом перекладу лексичних еле­ментів необхідно обачно і тільки там, де це доцільно, оскільки значний семантичний розвиток значення слова, що перекладається, може призвести до викривлення змісту оригіналу і порушення адекватності перекладу. </article>
+                        <article class="read_more more" data-hash="explication"> <b>Експлікація </b>(описовий переклад) – це такий прийом перекладу нових лексичних елементів вихідної мови,
+                            коли слово, словосполучення, термін чи фразео­логізм замінюється в мові перекладу словосполученням (або більшим за кількістю компонентів словосполученням),
+                            яке адекватно передає зміст цього слова або словосполучення (терміна): maisonette – квартира (помешкання) в двох рівнях (на двох поверхах),
+                            rabbit – газодифузійне розділення ізотопів з частковою рециркуляцією, wail – автомобіль з висо­кими динамічними якостями.
+                            <br><br>
+                            До описового перекладу висуваються такі вимоги: 1) переклад по­винен точно відбивати основний зміст позначеного неологізмом поняття, 2) опис не повинен бути надто докладним, 3) синтаксична структура сло­восполучення не повинна бути складною.
+                            <br><br>
+                            При застосуванні описового перекладу важливо слідкувати за тим, щоб словосполучення в мові перекладу точно і повно передавало всі ос­новні ознаки поняття, позначеного словом оригіналу. Наприклад, термін outscriber має такі основні ознаки: вихід, записування та пристрій, а тому при перекладі описовим способом слід зберегти всі ці головні ознаки: outscriber – вихідний пристрій відтворення даних.
+                            <br><br>
+                            Перед застосуванням цього прийому перекладу неологізмів необхідно виконати попередню умову правильності перекладу неологізмів – переконатися, що в мові перекладу відсутній перекладний відповідник (зрозумі­ло, що перекладні словники ще не могли його зафіксувати, проте він може бути зафіксований, зокрема, у вже перекладеній нещодавно літературі), щоб не створювати термінологічні дублети в мові перекладу.
+                            <br><br>
+                            Для того, щоб правильно застосувати такий прийом перекладу, необхідно добре знати предметну сферу тексту, що перекладається, щоб правильно розкрити зміст позначеного неологізмом поняття.
+                            <br><br>
+                            У порівнянні з транскодуванням описовий переклад має ту перева­гу, що завдяки ньому досягається більша прозорість змісту поняття, позна­ченого відповідником неологізму. Разом з тим, описовий переклад характеризується такими недоліками: 1) при його застосуванні можливо неточно або нечітке тлумачення змісту поняття, позначеного неологізмом, 2) описо­ве словосполучення порушує таку вимогу до термінів, як стислість (а тому такі багатослівні терміни не мають дериваційного потенціалу, тобто, від них важко, якщо взагалі можливо, утворювати похідні терміни). </article>
+                        <article class="read_more more" data-hash="anatomic-translate"> Крайнім випадком такого способу перекладу, як семантичний розвиток, при перекладі слів і
+                            словосполучень є так званий <b>«антонімічний» переклад</b>, коли форма слова або словосполучення замінюється на протилежну (позитивна – на негативну і навпаки),
+                            а зміст одиниці, що перекладається, залишається в основному подібним.
+                            <br><br>
+                            По суті, термін «антонімічний переклад», який зустрічається в перекладознавчій літературі, є неточним, оскільки слово, що перекладається, не замінюється на антонім у мові перекладу, а змінює лише форму на протилежну, тоді як його зміст, значення залишається без особливих змін. Тому для позначення означеного способу перекладу краще використовувати тер­мін «формальна негативація», в якому підкреслюється саме зміна форми слова або словосполучення і не йдеться про антонімічність як таку, що пов'язана із зміною змісту на протилежний.
+                            <br><br>
+                            Означена трансформація представлена трьома видами: 1) негативація (слово або словосполучення без формально вираженої суфіксом або часткою заперечувальної семи замінюється в перекладі на слово з префік­сом не- або словосполученням з часткою не: to continue – не зупинятися, small – невеликий, to ignore – не помічати), 2) позитивація (сло­во або словосполучення з формально вираженою заперечувальною семою замінюється в перекладі на слово або словосполучення, яке не містить фор­мально вираженого негативного компонента: unabbreviated – повний, unabolished – такий, що залишається чинним, unallowed – заборо­нений, to disable – блокувати, закривати), 3) анулювання двох наявних у реченні негативних семантичних компонентів (наприклад, to not defuse – залишати із запальником (бомбу), not impossible – можливий, not disaggre­gative – цільний, to disappear never – завжди залишатися).
+                            <br><br>
+                            В певних контекстах деякі англійські слова, що не мають у своєму складі заперечувальних морфем, але містять, як правило, заперечувальний семантичний компонент, можуть перекладатися подібними за значеннями словами з префіксом не- або сполученнями частки не з антонімічним відповідником слова, що перекладається: to fail – не вдатися, to hate – не полюбляти, to be ignorant – бути несвідомим (чогось), avoidable – ненеминучий. Тому формальна негативація є одним з прийомів реаліза­ції контекстуальної заміни, тобто такої лексичної заміни, що можлива лише в певному контексті.
+                            <br><br>
+                            Одними з таких слів, при перекладі яких найчастіше застосовується даний прийом, є дієслово to fail та похідний від нього іменник failure:
+                            <br><br>
+                            Moreover, a gas chromatograph failed to detect the presence of organic molecules. Більше того, газовий хроматограф не зміг виявити присутність органічних молекул.
+                            <br><br>
+                            Whitney, however, failed to profit from his invention. Однак Вітні нічого не заробив на своєму винаході.
+                            <br><br>
+                            Debtors might be put to death if their failure to pay their creditors was due to fraudulent practices. Боржників могли стратити, якщо вони були нездатні сплатити борги через свої махінації.
+                            <br><br>
+                            Thought disorders may be observed as a failure to make logical connec­tions. Порушення мислення можуть виявлятися у нездатності встановлю­вати логічні зв'язки.
+                            <br><br>
+                            Часто прийом формальної негативації застосовується при перекладі складних речень, що містять заперечувальну частку not і сполучник until або unless:
+                            <br><br>
+                            Recessive genetic diseases do not show up in children unless both parents are carrying a gene for that particular disease. Рецесивні генетичні хвороби виявляються у дітей, батьки яких є носіями гену тієї чи іншої хвороби.
+                            <br><br>
+                            Large-scale structures of the universe did not become a preoccupation of cosmology until the mid-1980s. Великі структури всесвіту стали об'єктом докладного дослідження лише в 1980-і роки.
+                            <br><br>
+                            Слід зауважити, що в таких випадках в переклад нерідко вводиться частка лише, як в останньому прикладі. </article>
+                        <article class="read_more more" data-hash="generalisation"> Your Content </article>
+                        <article class="read_more more" data-hash="specification"> Your Content </article>
+                        <article class="read_more more" data-hash="addition">Your Content</article>
+                        <article class="read_more more" data-hash="deleted">Your Content</article>
+                        <article class="read_more more" data-hash="permutation">Your Content</article>
+                        <article class="read_more more" data-hash="replacements">Your Content</article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="theory-theme">
+                <a name="theme-2" style="display:block;"></a> <!--Якорь на вторую тему-->
+                <h1 class="theory-theme-title-2">ТЕМА 2. Переклад окремих груп назв</h1>
+                <div class="theory-theme-gridbox">
+                    <!--Ячейки грид-секции-->
+                        <a href="#institution" class="grid-cell" id="theme2-box1">Назви навчальних закладів, факультетів, кафедр, лабораторій</a>
+                        <a href="#magazines" class="grid-cell" id="theme2-box2">Назви журналів</a>
+                        <a href="#science" class="grid-cell" id="theme2-box3">Назви наукових і технічних установ</a>
+                        <a href="#enterprises" class="grid-cell" id="theme2-box4">Назви підприємств</a>
+                        <a href="#organizations" class="grid-cell" id="theme2-box5">Назви громадських, технічних і наукових організацій</a>
+
+                        <a href="#toponyms" class="grid-cell" id="theme2-box6">Топоніми</a>
+                        <a href="#main_elements" class="grid-cell" id="theme2-box7">Загальний елемент у складі назв</a>
+                        <a href="#ergonomics" class="grid-cell" id="theme2-box8">Ергоніми</a>
+                        <a href="#anthroponomisms" class="grid-cell" id="theme2-box9">Антропоніми</a>
+                        <a href="#book_names" class="grid-cell" id="theme2-box10">Назви книг і статей</a>
+                </div>
+                <div class="carousel-wrap">
+                    <div class="owl-carousel owl-theme">
+                        <article class="read_more more" data-hash="institution">
+                            <b>Переклад назв вищих навчальних закладів</b> – університетів та коледжів може становити певну складність для перекладача-початківця. При перекладі таких назв перш за все треба чітко визначити, що позначають власні імена у складі назви – місто, адміністративну одиницю, особу тощо. Назви навчальних закладів, що містять назви штатів (СІЛА, Австралія), провінцій (Канада), графств (Великобританія), земель (ФРН), міст тощо перекладаються переважно наступними способами:
+                            <br><br>
+                            1) до назви додається слово «штат», «провінція», «місто» тощо: University of Toledo – університет міста Толідо, University of Texas – універ­ситет штату Техас;
+                            <br><br>
+                            2) топонім-іменник перетворюється у відповідний прикметник: University of California – Каліфорнійський університет, University of Bir­mingham – Бірмінгемський університет, University of Sidney – Сіднейський університет.
+                            <br><br>
+                            Деякі назви можуть містити поряд з позначенням штату позначення міста: University of Massachusetts Amherst – університет штату Масачусеттс у м. Амгерст.
+                            <br><br>
+                            Якщо назва навчального закладу містить антропонім, то вона пере­кладається одним з двох основних способів:
+                            <br><br>
+                            1) у назву вводиться слово "імені": William Jewell College – коледж ім. Вільяма Джуелла, John Gopkins University – університет ім. Джона Гопкінса;
+                            <br><br>
+                            2) формою родового відмінку або називного відмінку (у лапках) відповідного антропоніма: John Brown University - університет Джона Брауна (університет «Джон Браун»).
+                            <br><br>
+                            Назви факультетів, кафедр, лабораторій тощо перекладаються: School of Journalism - факультет журналістики, Faculty of Modern Languages – факультет іноземних мов, Department of History – історичний факультет, Jet Propulsion Laboratory – лабораторія реактивного руху, geophysics laboratory
+                            <br><br>
+                            – геофізична лабораторія, Biology Department – кафедра біології (зауважи­мо, що слово department може перекладатися, в залежності від контексту, і як «факультет», і як «кафедра» або «відділення»).
+                        </article>
+                        <article class="read_more more" data-hash="magazines">
+                            <b>Назви журналів</b> , як вже зазначалося, не перекладаються, а транскодуються: Physical Review – «Фізикл рів'ю», Language – «Ленгвідж», Internati­onal
+                            Journal of Macromolecular Chemistry – «Інтернешнл джорнал оф макро-молек'юлар кемістрі», Journal of Applied Mathematics – «Джорнел оф епплайд математикс»,
+                            Spectroscopy and Optics – «Спектроскопі енд оптикс», Semiotica – «Семіотика», European Polymer Journal – «Юропіен полімер джорнал», Phy­sics Letters –
+                            «Фізикс леттерс». З урахуванням запитів користувачів перекла­ду до транскодованої назви журналу може додаватися у дужках її переклад українською мовою:
+                            Chemical Abstracts – «Кемікл абстрактс» («Хімічний ре­феративний журнал»), Solid State Physics – «Солід стейт фізикс» («Фізика твердого тіла»),
+                            International Affairs – «Інтернешнл афферс» («Міжнародні спра­ви»), Journal of Sociology – «Джорнел оф сошиолоджи» («Соціологічний жур­нал»).
+                            <br><br>
+                            В інформативних цілях (наприклад, в рефератах) назви жур­налів доцільно перекладати після того, як вони подані в тексті перекладу (реферату) в транскодованому вигляді: International Journal of Marine Law – «Інтернешнл джорнел оф марін ло» («Міжнародний журнал з морського права»), Biological Abstracts – «Байолоджикал ебстректс» («Реферати праць з біології»), Child Psychology – «Чайлд сайколоджи» («Дитяча психологія»).
+                        </article>
+                        <article class="read_more more"data-hash="science">
+                            <b>Наукова або технічна установа</b> може називатися за змістом діяль­ності (Institute of Biochemistry –
+                            Інститут біохімії, Car Development Center – Центр розробки автомобілів) або умовно (Endeavor Research Institute
+                            – На­уково-дослідний інститут «Ендевор», the Gauss Laboratory – лабораторія ім. Гауса). Назви наукових установ,
+                            як правило, перекладаються: Institute for Theoretical Physics – Інститут теоретичної фізики, National Anthropological
+                            Research Center – Національний антропологічний дослідницький центр, In­ternational Peace Institute – Інститут з
+                            досліджень міжнародного миру, Insti­tute of Oriental Studies – Інститут сходознавства.
+                            <br><br>
+                            Якщо до складу назви входить антропонім, то у перекладі додається слово «імені» або його
+                            скорочення: М. Planck Institute – Інститут ім. М. Планка, Bertran Russell Centre – Дослідницький
+                            центр ім. Бертрана Расселла. Умов­ний елемент у назві не перекладається, а транскодується:
+                            Freedomways Insti­tute – Інститут «Фрідомвейз», Alert Research Corporation – Науково-дослідна корпорація Алерт.
+                        </article>
+                        <article class="read_more more" data-hash="enterprises">
+                            <b>Назви підприємств</b> (фірм, компаній, корпорацій тощо) не перекладаються, а транскодуються: Dow Chemical –
+                            (концерн) Доу кемікал, General Motors – (корпорація) Дженерал моторе, Harris Paint Company – (компанія)
+                            Гарріс Пейнт Компані, Sony Corporation – Соні корпорейшн.
+                            <br><br>
+                            Зауважимо, що загальний елемент у складі назви (corporation, company тощо)
+                            також не перекладається, якщо він є частиною назви підприємства. Оскільки в
+                            англійських текстах назва підприємства нерідко дається без характе­ристики
+                            підприємства, вираженого звичайно зазначеним загальним елемен­том, у перекладі
+                            доцільно вводити такий елемент (іноді разом з поясненням щодо сфери діяльності),
+                            особливо коли підприємство є маловідомим або неві­домим взагалі: Texaco –
+                            нафтодобувна компанія Тексако, General Electric – елек­тротехнічна корпорація
+                            Дженерал електрик, White Manufacturers Ltd. – компа­нія Байт мануфекчерерз лтд., Stanson & Brothers – фірма Стенсон енд бразерс.
+                            <br><br>
+                            Абревіатури у складі назв компаній звичайно транскрибуються, а не транслітеруються: СНС Ltd. – Сі-Ейч-Сі Лімітед,
+                            GMN – компанія Джи-Ем-Ен, IK Marketing – компанія Ай-Кей Маркетинг.
+                        </article>
+                        <article class="read_more more" data-hash="organizations">
+                            У практиці перекладу усталеним вже є правило, згідно за яким назви громадських організацій перекладаються повністю,
+                            причому якомога ближ­че до оригіналу, якщо це точно передає значення назви та не порушує норм мови перекладу: International Society
+                            of General Research – Міжнародне това­риство фундаментальних досліджень, American Association of Electrical En­gineers –Американська
+                            асоціація електротехніки (або: ... електротехніків).
+                            <br><br>
+                            Для точнішої передачі значення назви нерідко у перекладі вжива­ються додаткові слова, відсутні в англійській назві: Global Security
+                            Associ­ation – Асоціація дослідників глобальної безпеки, International Non-Government Organizartion – Міжнародна організація неурядових організацій.
+                            <br><br>
+                            Перекладаються також назви наукових фондів та фундацій: Italian National Science Foundation – Італійська національна наукова фундація,
+                            US National Science Foundation – Національна наукова фундація США, Spanish National Foundation for Scientific Research
+                            – Іспанський національний фонд наукових досліджень.
+                        </article>
+                        <article class="read_more more" data-hash="toponyms"> Your Content </article>
+                        <article class="read_more more" data-hash="main_elements"> Your Content </article>
+                        <article class="read_more more" data-hash="ergonomics">Your Content</article>
+                        <article class="read_more more" data-hash="anthroponomisms">Your Content</article>
+                        <article class="read_more more" data-hash="book_names">Your Content</article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="letter">
+        <div class="container">
+            <div class="mail-wrapper">
+                <h2>Транскодування</h2>
+                <!--Текст оформленный как параграф. Тег <br> - это перенос на новую строку.
+                 Так же как если нажать enter в Microsoft Word-->
+                <p>Мені тринадцятий минало, я пас ягняти за селом. Чи то так сонечно сіяло, чи то мені чого було?
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <br><br>
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    <br><br>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                    <br><br>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit
+                    <br><br>
+                </p>
+                <!--Загаловок-->
+                <h3>Закріпіть знання, відповівши на запитання</h3>
+                <br><br>
+                <p>2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    <br><br>
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testyourself">
+        <div class="container">
+            <!--<div class="nav-buttons">-->
+                <!--&lt;!&ndash;Пустая ссылка для будущего контента&ndash;&gt;-->
+                <!--<a href="#">-->
+                    <!--Попередня підтема-->
+                <!--</a>-->
+                <!--&lt;!&ndash;Пустая ссылка для будущего контента&ndash;&gt;-->
+                <!--<a href="#">-->
+                    <!--Наступна підтема-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--Ссылка-кнопка-->
+            <a id="test-button" href="../inner_pages/practice.html">Перейти до практики</a>
+        </div>
+    </section>
+</main>
+<!--Подключение шаблона header.html(папка "template")-->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div class="links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <div class="copyright">
+                <p>© 2018 ХАІ</p>
+                <p>Всі права захищені.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>

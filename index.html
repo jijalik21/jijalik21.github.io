@@ -1,0 +1,114 @@
+<!--Подключение шаблона head.html(папка "template")-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>Мой сайт1111</title>
+
+    <!--styles-->
+    <link rel="stylesheet" type="text/css" href="style/style_list.css">
+    <link rel="stylesheet" href="https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css">
+    <!--fonts -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <!--Font Awesome Icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+        <!--Owl-Carousel(slider)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/assets/owl.theme.default.min.css" />
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/server.js"></script>
+</head>
+
+<!--Наш код к главной странице-->
+<body>
+<!--Подключение шаблона header.html(папка "template")-->
+<header>
+    <div class="container">
+        <ul class="nav-menu">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="inner_pages/theory.html">Теорія</a></li>
+            <li><a href="inner_pages/practice.html">Практика</a></li>
+            <li><a href="inner_pages/marks.html">Оцінки</a></li>
+        </ul>
+    </div>
+</header>
+
+    <main class="main">
+
+        <section id="big-pic">
+            <!--Нижний слой с эффектом жетого цвета с картинкой внутри, используеться как фон.
+            Класс earlybird тут не просто так, мы подключили библиотеку cssgram(в header-e)
+             и теперь можем меняя название класса изменять эффект! Все эффекты пародируют эффекты из Instagram-->
+            <figure class="earlybird">
+                <img src="img/no-layer_khai.jpg" alt="#">
+            </figure>
+            <div class="container">
+                <div class="big-pick_content">
+                    <h2>Навчись перекладати у ХАІ!</h2>
+                    <div class="buttons-wrapper">
+                        <a href="inner_pages/theory.html" class="big-pick_button">Теорія</a>
+                        <a href="inner_pages/practice.html" class="big-pick_button">Практика</a>
+                    </div>
+                </div>
+            </div>
+            <!--Треугольник внизу, это отдельный блок.
+             Он пуст в html, но в css правилах есть параметры
+              отвечающие за его отображение как треугольника-->
+            <div class="triangle"></div>
+        </section>
+
+        <section id="courses">
+            <div class="container">
+                <h2>ПРОГРАМА КУРСУ</h2>
+                <div class="themes-wrapper">
+                    <!--Синяя и Фиолетавая блоки это ссылки с якорем-->
+                        <a class="theme-style theme-1" href="inner_pages/theory.html#theme-1"><span>ТЕМА 1. Перекладацькі трансформації</span></a>
+                        <a class="theme-style theme-2" href="inner_pages/theory.html#theme-2"><span>ТЕМА 2. Переклад окремих груп назв</span></a>
+                    <!--Последний блок, не являеться ссылкой и никуда не ведет.
+                     Однако, по наведению на него срабатывает скрипт и изменяеться текст-->
+                    <div class="theme-style theme-3">
+                        Перевірка знань з усіх пройдених тем
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testyourself">
+            <div class="container">
+                <h3>Упевнений у своїх знаннях? </h3>
+                <!--Кнопка ссылка-->
+                <a id="test-button" href="inner_pages/practice.html">Перейти до практики</a>
+            </div>
+        </section>
+
+    </main>
+
+<!--Подключение шаблона header.html(папка "template")-->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div class="links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <div class="copyright">
+                <p>© 2018 ХАІ</p>
+                <p>Всі права захищені.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
