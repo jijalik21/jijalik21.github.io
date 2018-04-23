@@ -25,6 +25,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/moroz.js"></script>
     <script src="../js/server.js"></script>
 </head>
 
@@ -37,7 +38,7 @@
             <li><a href="../index.html">Головна</a></li>
             <li><a href="../inner_pages/theory.html">Теорія</a></li>
             <li><a href="../inner_pages/practice.html">Практика</a></li>
-            <li><a href="../inner_pages/marks.html">Оцінки</a></li>
+            <li><a class="grade" href="../inner_pages/marks.html">Оцінки</a></li>
         </ul>
     </div>
 </header>
@@ -55,101 +56,101 @@
 
                             <div class="transcode-item">
                                 <label for="ahmad">ahmad  </label>
-                                <input id="ahmad" type="text">
+                                <input id="ahmad" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="altimeter">altimeter  </label>
-                                <input id="altimeter" type="text">
+                                <input id="altimeter" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="aviator">aviator  </label>
-                                <input id="aviator" type="text">
+                                <input id="aviator" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="google">google  </label>
-                                <input id="google" type="text">
+                                <input id="google" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="hobby">hobby  </label>
-                                <input id="hobby" type="text">
+                                <input id="hobby" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="husky">husky  </label>
-                                <input id="husky" type="text">
+                                <input id="husky" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="Internet">Internet  </label>
-                                <input id="Internet" type="text">
+                                <input id="Internet" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="management">management </label>
-                                <input id="management" type="text">
+                                <input id="management" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="manipulation">manipulation  </label>
-                                <input id="manipulation" type="text">
+                                <input id="manipulation" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="media_player">media player  </label>
-                                <input id="media_player" type="text">
+                                <input id="media_player" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="moskovskyy">moskovskyy  </label>
-                                <input id="moskovskyy" type="text">
+                                <input id="moskovskyy" type="text" name="transliteration">
                             </div>
                             <div class="transcode-item">
                                 <label for="ort">ort  </label>
-                                <input id="ort" type="text">
+                                <input id="ort" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="perforator">perforator  </label>
-                                <input id="perforator" type="text">
+                                <input id="perforator" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="platform">platform  </label>
-                                <input id="platform" type="text">
+                                <input id="platform" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="resource">resource </label>
-                                <input id="resource" type="text">
+                                <input id="resource" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="Special_Systems_Industry">special systems industry  </label>
-                                <input id="Special_Systems_Industry" type="text">
+                                <input id="Special_Systems_Industry" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="tag">tag  </label>
-                                <input id="tag" type="text">
+                                <input id="tag" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="turbogenerator">turbogenerator  </label>
-                                <input id="turbogenerator" type="text">
+                                <input id="turbogenerator" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="video">video  </label>
-                                <input id="video" type="text">
+                                <input id="video" type="text" name="transliteration">
                             </div>
 
                             <div class="transcode-item">
                                 <label for="zara">zara  </label>
-                                <input id="zara" type="text">
+                                <input id="zara" type="text" name="transliteration">
                             </div>
                         </div>
                         <h1>Тести (може бути декiлька правильних вiдповiдей)</h1>
@@ -691,10 +692,13 @@
                                 <input type="checkbox" name="random" value="false"> Однак Вітні дуже мало заробив на своєму винаході. <br>
                             </div>
                         </div>
-                        <button type="submit" class="submit">Submit</button>
+                        <button type="submit" class="submit" id="submit">
+                            Перевірити</button>
                     </form>
-                </div>
-                <!--<h1>Завдання за темою «Транскодуваня»</h1>-->
+
+
+
+                    <!--<h1>Завдання за темою «Транскодуваня»</h1>-->
                 <!--<p>Застосовуючи метод транслітерації і транскрибування,-->
                     <!--перекладіть наступні слова <br>-->
                     <!--Звіртеся із правильним варіантом.-->
@@ -705,9 +709,11 @@
                     <!--<li class="practice-list-item practice-lined" >Special Systems Industry</li>-->
                     <!--<li class="practice-list-item">Special Systems Industry</li>-->
                 <!--</ul>-->
+                </div>
             </div>
         </div>
     </section>
+
 
 </main>
 <!--Подключение шаблона header.html(папка "template")-->

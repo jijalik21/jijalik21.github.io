@@ -25,6 +25,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.3/owl.carousel.min.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/moroz.js"></script>
     <script src="../js/server.js"></script>
 </head>
 
@@ -37,7 +38,7 @@
             <li><a href="../index.html">Головна</a></li>
             <li><a href="../inner_pages/theory.html">Теорія</a></li>
             <li><a href="../inner_pages/practice.html">Практика</a></li>
-            <li><a href="../inner_pages/marks.html">Оцінки</a></li>
+            <li><a class="grade" href="../inner_pages/marks.html">Оцінки</a></li>
         </ul>
     </div>
 </header>
@@ -47,36 +48,36 @@
    <section id="marks">
        <div class="container">
            <div class="marks-wrapper">
-               <h2>Пройдено тем</h2>
-               <p class="num-mark">4</p>
+               <h2>Результати тесту:</h2>
+               <!--<p class="num-mark">4</p>-->
                <!--Разделитель, пуст в html, но оформлен в css-->
-               <div class="devider"></div>
-               <div class="studies-mark-wrapper">
-                   <div class="studies">
-                       <!--Список с левой колонкой предметом-->
-                       <ul>
-                           <li>Транскодування</li>
-                           <li>Вилучення слова</li>
-                           <li>Додавання слова</li>
-                           <li>Генералізація </li>
-                       </ul>
-                   </div>
-                   <div class="marks">
-                       <!--Список с правой колонкой оценками-->
-                       <ul>
-                           <li>5 балів</li>
-                           <li>4 бали</li>
-                           <li>3 бали</li>
-                           <li>4 бали</li>
-                       </ul>
-                   </div>
-               </div>
+               <!--<div class="devider"></div>-->
+               <!--<div class="studies-mark-wrapper">-->
+                   <!--<div class="studies">-->
+                       <!--&lt;!&ndash;Список с левой колонкой предметом&ndash;&gt;-->
+                       <!--<ul>-->
+                           <!--<li>Транскодування</li>-->
+                           <!--<li>Вилучення слова</li>-->
+                           <!--<li>Додавання слова</li>-->
+                           <!--<li>Генералізація </li>-->
+                       <!--</ul>-->
+                   <!--</div>-->
+                   <!--<div class="marks">-->
+                       <!--&lt;!&ndash;Список с правой колонкой оценками&ndash;&gt;-->
+                       <!--<ul>-->
+                           <!--<li>5 балів</li>-->
+                           <!--<li>4 бали</li>-->
+                           <!--<li>3 бали</li>-->
+                           <!--<li>4 бали</li>-->
+                       <!--</ul>-->
+                   <!--</div>-->
+               <!--</div>-->
                <!--Разделитель, пуст в html, но оформлен в css-->
-               <div class="devider"></div>
+               <!--<div class="devider"></div>-->
                <!--НОВЫЙ список с фтнальными оценками-->
                <ul class="studies-mark-final">
-                   <li class="final-study">Загальна оцінка</li>
-                   <li class="final-mark">4 бали</li>
+                   <!--<li class="final-study">Загальна оцінка</li>-->
+                   <li class="final-mark" id="final-mark">4 бали</li>
                </ul>
            </div>
        </div>
